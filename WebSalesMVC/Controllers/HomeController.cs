@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using WebSalesMVC.Models;
+using WebSalesMVC.Models.ViewModels;
 
 namespace WebSalesMVC.Controllers
 {
@@ -17,7 +18,7 @@ namespace WebSalesMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Web Sales MVC";
 
             return View();
         }
